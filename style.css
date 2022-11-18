@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
+
+:root {
+    --bg-color: #0e0e0e;
+    --personal: #d0d1d4;
+    --personal-bg: #343a46;
+    --boxTitle: #20242e;
+    --progress: #ffffff;
+    --title: #20242e;
+    --line: #d7d7d7;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: var(--bg-color);
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;;
+    margin: 0 auto;
+}
+
+.personalContainer{
+    color: var(--personal);
+    background: var(--personal-bg);
+    padding: 15px;
+    width: 400px;
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.jobTitle {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.boxTitle {
+    background: var(--boxTitle);
+    margin: 0 -15px;
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.personalInfo, .additionalSkills, .languages {
+    margin-bottom: 15px;
+}
+
+.personalInfoBox {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.personalInfoBoxTitle {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.additionalSkillsBox, .languagesBox {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+progress {
+    width: 100%;
+    height: 8px;
+    border-radius: 0px;
+    margin: 8px 0;
+}
+
+progress::-webkit-progress-value {
+    background: var(--progress);
+}
+  
+progress::-webkit-progress-bar {
+    background: var(--boxTitle);
+}
+
+span {
+    float: right;
+}
+
+.aditionalContainer {
+    color: var(--title);
+    background: #fff;
+    padding: 15px;
+}
+
+.aditionalContainerTitle {
+    font-weight: bold;
+}
+
+.line {
+    margin: 8px 0;
+    width: 100%;
+    height: 2px;
+    background: var(--line);
+}
+
+.skills, .experience {
+    margin-bottom: 20px;
+}
+
+.aditionalBoxTitle {
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-position: outside;
+}
+
+li {
+    margin-bottom: 10px;
+    color: var(--title);
+    font-size: 15px;
+}
+
+.intervalsBox {
+    display: flex;
+    margin: 15px 0;
+}
+
+.intervals {
+    width: 150px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.intervalsDetails {
+    width: 100%;
+}
+
+.intervalsDetailsTitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.intervalsDetailsSubtitle {
+    font-style: italic;
+    margin-bottom: 8px;
+}
