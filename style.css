@@ -156,9 +156,8 @@ li {
     margin-bottom: 8px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     .container {
-        display: flex;
         flex-direction: column;
     }
 
